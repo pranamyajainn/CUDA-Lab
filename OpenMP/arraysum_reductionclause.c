@@ -4,7 +4,7 @@
 #define n 1000 // Size of the array
 
 int main() {
-    int a[n]; // Array to hold the data
+    int a[n]; 
     int sum = 0; // Variable to hold the sum
 
     // Initialize the array with values
