@@ -14,6 +14,7 @@ int main(){
           largest_parallel = array[i];
       }
   }
+
 for(int i=0; i<n; i++){
   if(array[i] > largest_serial){
     largest_serial = array[i];
