@@ -4,7 +4,7 @@
 int main() {
     int n;
 
-    // Input the size of the arrays
+    // Input 
     printf("Enter the size of the arrays: ");
     scanf("%d", &n);
 
