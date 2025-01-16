@@ -29,5 +29,5 @@ if(largest_parallel == largest_serial){
 } else{ 
   printf("DONT MATCH.");
 }
-return 0;
+
 }
