@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// CUDA kernel to add two numbers
+// CUDA kernel 
 __global__ void addNumbers(int *a, int *b, int *c) {
     *c = *a + *b;
 }
@@ -26,7 +26,7 @@ int main() {
 
     printf("Result: %d + %d = %d\n", a, b, c);
 
-    // Free device memory
+
     cudaFree(d_a);
     cudaFree(d_b);
     cudaFree(d_c);
