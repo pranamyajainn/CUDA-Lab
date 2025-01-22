@@ -10,7 +10,7 @@ int main() {
     int max_threads = omp_get_max_threads();
     printf("Maximum threads OpenMP can use: %d\n", max_threads);
 
-    // Start a parallel region
+    // Start the parallel region
     #pragma omp parallel
     {
         int thread_id = omp_get_thread_num();   // Get thread ID
