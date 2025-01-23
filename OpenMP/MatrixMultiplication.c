@@ -1,4 +1,5 @@
-#include<stdio.h>
+//#in matrix multiply
+clude<stdio.h>
 #include<omp.h>
 #define n 3
 int main() {
